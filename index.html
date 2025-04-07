@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abenezer Anteneh | Creative Designer</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600;700&family=Quicksand:wght@500;700&family=Raleway:wght@300;400;700&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Add this anywhere in your HTML (usually before </body>) -->
+<audio id="bgAudio" loop>
+  <source src="./aud/y2mate.com - Ludovico Einaudi  Experience Live from Teatro dal Verme Milano.mp3" type="audio/mpeg">
+  <source src="audio/background-music.ogg" type="audio/ogg">
+  Your browser does not support audio
+</audio>
+
+<!-- Optional: Add a toggle button -->
+<button id="audioToggle" aria-label="Toggle background music">
+  <i class="fas fa-volume-mute"></i>
+</button>
+  <!-- Remove this line if it exists -->
+<div class="cursor-follower"></div>
+
+<!-- Keep only this single cursor -->
+<div class="cursor"></div>
+
+  <!-- Animated Tech Icons Background -->
+  <div class="tech-icons-bg" id="techIconsBg"></div>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home" class="logo">Abenezer</a>
+    <div class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Home Page -->
+  <section id="home" class="page">
+    <div class="profile-container">
+      <img src="image2/photo_2025-04-02_22-11-39.jpg" alt="Abenezer Anteneh" class="profile-photo">
+      <div class="name-title">
+        <h1>Abenezer Anteneh</h1>
+        <h2>CREATIVE DESIGNER & VIDEO EDITOR</h2>
+      </div>
+      <div class="typing-text">
+        <span id="typed-text"></span>
+        <span class="typing-cursor"></span>
+      </div>
+      <div class="home-buttons">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Page -->
+  <section id="about" class="page">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>I'm a passionate graphic designer and video editor with over three years of professional experience creating visually compelling designs for churches, communities, and various development projects. My journey in design began with self-learning through online platforms, which ignited my love for visual storytelling.</p>
+        <p>What sets my work apart is the ability to combine aesthetic appeal with functional design, creating pieces that not only look beautiful but also effectively communicate their intended message. I specialize in developing creative solutions that help organizations establish a strong visual identity and connect with their target audience.</p>
+        <p>When I'm not designing, you can find me exploring new techniques in motion graphics, photography, or mentoring aspiring designers in my community. I believe design has the power to transform ideas into impactful visual experiences.</p>
+      </div>
+      <div class="about-image">
+        <div class="photo-3d">
+          <img src="image2/abenezer.jpg.jpg" alt="3D Profile">
+          <!-- 3D Icons -->
+          <div class="icon-3d"></div>
+          <div class="icon-3d"></div>
+          <div class="icon-3d"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work/Portfolio Page -->
+  <section id="work" class="page">
+    <h2 class="section-title">My Work</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="image2/d30c516e-eed6-472c-9911-af80037d65a8.jpg" alt="Project 1" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h3 class="portfolio-title">Church Branding</h3>
+          <p class="portfolio-category">Graphic Design</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="image2/church.jpg" alt="Project 2" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h3 class="portfolio-title">Community Event</h3>
+          <p class="portfolio-category">Video Production</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="image2/3d4ad9ef-1cfe-4c86-857d-77ce193679dc.jpg" alt="Project 3" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h3 class="portfolio-title">School Campaign</h3>
+          <p class="portfolio-category">Graphic Design</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <video src="vid/0103.mov" control alt="Project 4" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h3 class="portfolio-title">Documentary Film</h3>
+          <p class="portfolio-category">Video Editing</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="image2/2dc6a6de-1c43-4036-8eb7-89efd7406414.jpg" alt="Project 5" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h3 class="portfolio-title">Logo Design</h3>
+          <p class="portfolio-category">Brand Identity</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="image2/78fddcdf-f12c-43b6-8703-4d30cc203150.jpg" alt="Project 6" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h3 class="portfolio-title">Motion Graphics</h3>
+          <p class="portfolio-category">Animation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Page -->
+  <section id="education" class="page">
+    <h2 class="section-title">Education</h2>
+    <div class="education-timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2020 - present</div>
+        <h3 class="timeline-title">Advanced Graphic Design</h3>
+        <p class="timeline-description">Self-paced online courses covering Adobe Photoshop, Illustrator, and InDesign for professional design work.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2022 - present</div>
+        <h3 class="timeline-title">Video Editing Mastery</h3>
+        <p class="timeline-description">Comprehensive training in Adobe Premiere Pro and After Effects through online tutorials and practical projects.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2018 - 2019</div>
+        <h3 class="timeline-title">Digital Media Fundamentals</h3>
+        <p class="timeline-description">Learned core principles of digital design, color theory, typography, and visual communication.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Page -->
+  <section id="experience" class="page">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3 class="experience-title">Lead Graphic Designer</h3>
+        <span class="experience-date">2021 - Present</span>
+      </div>
+      <p class="experience-company">Mekanisa Mekan Eyesus Church, Addis Ababa</p>
+      <p class="experience-description">Oversee all visual design projects for church activities, events, and community outreach programs. Manage a team of junior designers and coordinate with various departments to create cohesive visual communications.</p>
+      <div class="experience-skills">
+        <span class="skill-tag">Adobe Creative Suite</span>
+        <span class="skill-tag">Brand Identity</span>
+        <span class="skill-tag">Print Design</span>
+        <span class="skill-tag">Team Leadership</span>
+      </div>
+    </div>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3 class="experience-title">Video Editor & Multimedia Specialist</h3>
+        <span class="experience-date">2020 - 2021</span>
+      </div>
+      <p class="experience-company">Community Development Projects</p>
+      <p class="experience-description">Produced and edited video content for various community development initiatives, creating compelling visual narratives that increased engagement and participation in programs and also work with chkela. </p>
+      <div class="experience-skills">
+        <span class="skill-tag">Video Editing</span>
+        <span class="skill-tag">Motion Graphics</span>
+        <span class="skill-tag">Storytelling</span>
+        <span class="skill-tag">Color Grading</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Page -->
+  <section id="skills" class="page">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3 class="skill-category-title"><i class="fas fa-paint-brush"></i> Graphic Design</h3>
+        <div class="skill-list">
+          <span class="skill-tag">Adobe Photoshop</span>
+          <span class="skill-tag">Adobe Illustrator</span>
+          <span class="skill-tag">Adobe InDesign</span>
+          <span class="skill-tag">Typography</span>
+          <span class="skill-tag">Color Theory</span>
+          <span class="skill-tag">Layout Design</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-category-title"><i class="fas fa-film"></i> Video Production</h3>
+        <div class="skill-list">
+          <span class="skill-tag">Adobe Premiere Pro</span>
+          <span class="skill-tag">After Effects</span>
+          <span class="skill-tag">DaVinci Resolve</span>
+          <span class="skill-tag">Color Grading</span>
+          <span class="skill-tag">Motion Graphics</span>
+          <span class="skill-tag">Sound Design</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-category-title"><i class="fas fa-camera"></i> Photography</h3>
+        <div class="skill-list">
+          <span class="skill-tag">Portrait Photography</span>
+          <span class="skill-tag">Event Photography</span>
+          <span class="skill-tag">Photo Editing</span>
+          <span class="skill-tag">Lightroom</span>
+          <span class="skill-tag">Composition</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-category-title"><i class="fas fa-laptop-code"></i> Other Skills</h3>
+        <div class="skill-list">
+          <span class="skill-tag">Brand Identity</span>
+          <span class="skill-tag">Social Media Graphics</span>
+          <span class="skill-tag">Print Production</span>
+          <span class="skill-tag">UI/UX Basics</span>
+          <span class="skill-tag">Project Management</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Page -->
+<section id="contact" class="page">
+  <h2 class="section-title">Contact Me</h2>
+  <div class="contact-content">
+    <div class="contact-container"> <!-- New container for side-by-side layout -->
+      <div class="contact-info">
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="info-content">
+            <h3>Email</h3>
+            <a href="mailto:benawork123@gmail.com">benawork123@gmail.com</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="info-content">
+            <h3>Phone</h3>
+            <a href="tel:+251954878923">+251954878923</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="info-content">
+            <h3>Location</h3>
+            <p>Addis Ababa, Ethiopia</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="info-content">
+            <h3>Working Hours</h3>
+            <p>Monday - Friday: 9am - 6pm</p>
+            <p>Weekends: By appointment</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#work" class="footer-link">Work</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+        <div class="social-icons-row">
+          <a href="https://www.instagram.com/bena1573" class="social-icon instagram" data-tooltip="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://t.me/bena1573" class="social-icon telegram" data-tooltip="Telegram">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/abenezer-anteneh" class="social-icon linkedin" data-tooltip="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.github.com/bena1573" class="social-icon github" data-tooltip="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:benawork123@gmail.com" class="social-icon email" data-tooltip="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="https://formspree.io/f/myzenozb" method="POST">
+          <div class="form-group">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" class="form-control" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+   
+    <p class="copyright">&copy; 2022 Abenezer Anteneh. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.jsx"></script>
+</body>
+</html>
